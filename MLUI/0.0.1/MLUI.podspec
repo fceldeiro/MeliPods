@@ -26,6 +26,11 @@ Pod::Spec.new do |s|
     circleView.dependency 'MLUI/Core'
   end
 
+    s.subspec 'SquareView' do |squareView|
+        squareView.source_files = 'MLUI/LibraryComponents/SquareView/classes/*.{h,m}'
+        squareView.dependency 'MLUI/Core'
+    end
+
 
 
 end
